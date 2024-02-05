@@ -22,13 +22,20 @@ Example structure:
   "farewells": ["Goodbye!", "See you later!", "Farewell!"]
 }
 ```
-## Screenshots and GIFs
+## Screenshots 
 
-![Chatbot Screenshot 1](./Images/screenshot1.png)
-*Desktop View*
+<div align="center">
+    <img src="./Images/screenshot1.png" alt="Chatbot Screenshot 1">
+    <br>
+   <h2> <em>Desktop View 💻.</em></h2>
+</div>
 
-![Chatbot Screenshot 2](./Images/screenshot2.png)
-*Mobile View*
+<div align="center">
+    <img src="./Images/screenshot2.png" alt="Chatbot Screenshot 2">
+    <br>
+    <h2><em>Mobile View 📱.</em></h2>
+</div>
+
 ## Getting Started
 
 1. Clone the repository:
