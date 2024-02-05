@@ -1,6 +1,7 @@
 # Chatbot Project
 
-This is a simple chatbot project implemented using HTML, CSS, and JavaScript.
+Welcome to the Chatbot Project! This is a simple chatbot implemented using HTML, CSS, and JavaScript. <br>
+Explore the live version of the Chatbot on [Kabilan.chat.com](https://kabilankavi131.github.io/ChatBot/).
 
 ## Overview
 
