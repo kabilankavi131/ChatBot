@@ -2,7 +2,7 @@ function start() {
   var temp = document.createElement("div");
   temp.innerText =
     botResponses.greetings[
-      Math.floor(Math.random() * botResponses.greetings.length)
+    Math.floor(Math.random() * botResponses.greetings.length)
     ];
   userMessages.appendChild(temp);
   temp.className = "bot";
@@ -235,105 +235,105 @@ fetch("botresponses.json")
       if (hello.includes(message.toLowerCase())) {
         temp.innerText =
           botResponses.greetings[
-            Math.floor(Math.random() * botResponses.greetings.length)
+          Math.floor(Math.random() * botResponses.greetings.length)
           ];
         console.log("Greetings");
       } else if (intro.includes(message.toLowerCase())) {
         temp.innerText =
           botResponses.introduction[
-            Math.floor(Math.random() * botResponses.introduction.length)
+          Math.floor(Math.random() * botResponses.introduction.length)
           ];
         console.log("Intro");
       } else if (celebrations.includes(message.toLowerCase())) {
         temp.innerText =
           botResponses.celebration[
-            Math.floor(Math.random() * botResponses.celebration.length)
+          Math.floor(Math.random() * botResponses.celebration.length)
           ];
         console.log("Celebrations");
       } else if (empath.includes(message.toLowerCase())) {
         temp.innerText =
           botResponses.empathy[
-            Math.floor(Math.random() * botResponses.empathy.length)
+          Math.floor(Math.random() * botResponses.empathy.length)
           ];
         console.log("Empathy");
       } else if (reflections.includes(message.toLowerCase())) {
         temp.innerText =
           botResponses.reflection[
-            Math.floor(Math.random() * botResponses.reflection.length)
+          Math.floor(Math.random() * botResponses.reflection.length)
           ];
         console.log("Reflections");
       } else if (humors.includes(message.toLowerCase())) {
         temp.innerText =
           botResponses.humor[
-            Math.floor(Math.random() * botResponses.humor.length)
+          Math.floor(Math.random() * botResponses.humor.length)
           ];
         console.log("Humor");
       } else if (positivity.includes(message.toLowerCase())) {
         temp.innerText =
           botResponses.positivity[
-            Math.floor(Math.random() * botResponses.positivity.length)
+          Math.floor(Math.random() * botResponses.positivity.length)
           ];
         console.log("Positivity");
       } else if (motive.includes(message.toLowerCase())) {
         temp.innerText =
           botResponses.motivation[
-            Math.floor(Math.random() * botResponses.motivation.length)
+          Math.floor(Math.random() * botResponses.motivation.length)
           ];
         console.log("Motivation");
       } else if (supports.includes(message.toLowerCase())) {
         temp.innerText =
           botResponses.support[
-            Math.floor(Math.random() * botResponses.support.length)
+          Math.floor(Math.random() * botResponses.support.length)
           ];
         console.log("Supports");
       } else if (help.includes(message.toLowerCase())) {
         temp.innerText =
           botResponses.gratitude[
-            Math.floor(Math.random() * botResponses.gratitude.length)
+          Math.floor(Math.random() * botResponses.gratitude.length)
           ];
         console.log("Graditute");
       } else if (like.includes(message.toLowerCase())) {
         temp.innerText =
           botResponses.likes[
-            Math.floor(Math.random() * botResponses.likes.length)
+          Math.floor(Math.random() * botResponses.likes.length)
           ];
         console.log("Like");
       } else if (encourage.includes(message.toLowerCase())) {
         temp.innerText =
           botResponses.encouragement[
-            Math.floor(Math.random() * botResponses.encouragement.length)
+          Math.floor(Math.random() * botResponses.encouragement.length)
           ];
         console.log("Encouragement");
       } else if (curiosity.includes(message.toLowerCase())) {
         temp.innerText =
           botResponses.curios[
-            Math.floor(Math.random() * botResponses.curios.length)
+          Math.floor(Math.random() * botResponses.curios.length)
           ];
         console.log("Encouragement");
       } else if (bye.includes(message.toLowerCase())) {
         temp.innerText =
           botResponses.farewell[
-            Math.floor(Math.random() * botResponses.farewell.length)
+          Math.floor(Math.random() * botResponses.farewell.length)
           ];
         console.log("Farewell");
       } else if (inappropriate.includes(message.toLowerCase())) {
         temp.innerText =
           botResponses.inappropriateLanguage[
-            Math.floor(
-              Math.random() * botResponses.inappropriateLanguage.length
-            )
+          Math.floor(
+            Math.random() * botResponses.inappropriateLanguage.length
+          )
           ];
         console.log("inappropriateLanguage");
       } else if (fineResponses.includes(message.toLowerCase())) {
         temp.innerText =
           botResponses.fineResponses[
-            Math.floor(Math.random() * botResponses.fineResponses.length)
+          Math.floor(Math.random() * botResponses.fineResponses.length)
           ];
         console.log("fineResponses");
       } else {
         temp.innerText =
           botResponses.generic[
-            Math.floor(Math.random() * botResponses.generic.length)
+          Math.floor(Math.random() * botResponses.generic.length)
           ];
         console.log("Generic");
       }
@@ -371,3 +371,4 @@ fetch("botresponses.json")
         "url('./Images/background.png')";
     }
   });
+
