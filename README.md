@@ -1,6 +1,7 @@
 # Chatbot Project
 
-This is a simple chatbot project implemented using HTML, CSS, and JavaScript.
+Welcome to the Chatbot Project! This is a simple chatbot implemented using HTML, CSS, and JavaScript. <br>
+Explore the live version of the Chatbot on [Kabilan.chat.com](https://kabilankavi131.github.io/ChatBot/).
 
 ## Overview
 
@@ -22,13 +23,20 @@ Example structure:
   "farewells": ["Goodbye!", "See you later!", "Farewell!"]
 }
 ```
-## Screenshots and GIFs
+## Screenshots 
 
-![Chatbot Screenshot 1](./Images/screenshot1.png)
-*Desktop View*
+<div align="center">
+    <img src="./Images/screenshot1.png" alt="Chatbot Screenshot 1">
+    <br>
+   <h2> <em>Desktop View 💻.</em></h2>
+</div>
 
-![Chatbot Screenshot 2](./Images/screenshot2.png)
-*Mobile View*
+<div align="center">
+    <img src="./Images/screenshot2.png" alt="Chatbot Screenshot 2">
+    <br>
+    <h2><em>Mobile View 📱.</em></h2>
+</div>
+
 ## Getting Started
 
 1. Clone the repository:
